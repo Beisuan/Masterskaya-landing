@@ -3,12 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-
+    <header class="header">
+        <nav class="nav">
+            <a class="logo">
+                <img src="#" alt="Логотип WOODART">
+            </a>
+            <ul class="menu">
+                <li class="menu-list"><a href="#">HOME</a></li>
+                <li class="menu-list"><a href="#">ABOUT US</a></li>
+                <li class="menu-list"><a href="#">SERVICES</a></li>
+                <li class="menu-list"><a href="#">GALLERY</a></li>
+                <li class="menu-list"><a href="#">CONTACT US</a></li>
+                <li class="menu-list"><a href="#">BLOG</a></li>
+                <li class="menu-list"><a href="#">PAGES</a></li>
+                <li class="menu-list"><a href="#"><img src="#" alt="Facebook"></a></li>
+                <li class="menu-list"><a href="#"><img src="#" alt="Twitter"></a></li>
+                <li class="menu-list"><a href="#"><img src="#" alt="Google"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="karusel">
+            <b>CARPENTRY WORK</b>
+            <h1>We Create Master Pieces Out Of Wood!</h1>
+            <p>Что-то на Китайском</p>
+            <a href="#">Get Your Quote</a>
+            <button type="button">Next</button>
+            <button type="button">Prev</button>
+        </section>
+        <section class="about">
+            <h2>We design and manufacture high quality and innovative WoodArt products.</h2>
+            <b>Over 35 years experience in industry</b>
+            <p>Еще что-то на Китайском</p>
+            <a href="#">ABOUT US</a>
+        </section>
+        <section class="furnitures">
+            <ul>
+                <li><h3>Wooden Furniture</h3><p>Что-то на Китайском</p><a href="#">READ MORE</a></li>
+                <li><h3>Wooden Furniture</h3><p>Что-то на Китайском</p><a href="#">READ MORE</a></li>
+                <li><h3>Wooden Furniture</h3><p>Что-то на Китайском</p><a href="#">READ MORE</a></li>
+            </ul>
+        </section>
+        <section class="prichini">
+            <h2>Why Choose WoodArt</h2>
+            <img src="#" alt="Жэнщина">
+            <b>Superior Quality</b>
+            <button type="button"></button>
+            <button type="button"></button>
+        </section>
+        <section class="questions">
+            <h2>Frequently Asked Question</h2>
+            <h2>1840</h2><p>PROJECT DONE</p>
+            <h2>950</h2><p>HAPPY CLIENTS</p>
+            <h2>35</h2><p>YEAR EXPERIENCE</p>
+            <h2>150</h2><p>PARTNERS</p>
+        </section>
+        <section class="clients">
+            <h2>Happy Clients</h2>
+            <ul>
+                <li>
+                    <blockquote>
+                        <img src="#" alt="Фото Клиента(Довольного)">
+                        <cite>Nicole Stark</cite>
+                        <p>Что-то на китайском!!!</p>
+                    </blockquote>
+                </li>
+            </ul>
+            <button type="button"></button>
+            <button type="button"></button>
+            <h2>Our Partners</h2>
+            <img src="#" alt="Partner1">
+            <img src="#" alt="Partner2">
+            <img src="#" alt="Partner3">
+            <img src="#" alt="Partner4">
+        </section>
+        <section class="quote">
+            <h2>Get a Free Quote</h2>
+            <form action="#">
+                <label class="visually-hidden" for="Name"></label>
+                <input id="Name" type="text" placeholder="Name">
+                <label class="visually-hidden" for="Email"></label>
+                <input id="Email" placeholder="Email">
+                <br>
+                <label class="visually-hidden" for="Phone"></label>
+                <input id="Phone" type="tel" placeholder="Phone">
+                <select name ="Request"><option value="s1" label="Request">Request</option></select>
+                <br>
+                <label class="visually-hidden" for="Message"></label>
+                <textarea id="Message" placeholder="Message"></textarea>
+                <br>
+                <button type="button">Send Message</button>
+            </form>
+        </section>
+        <section class="Contact">
+            <h2>If you have any wood work</h2>
+            <p>Call Us our 24 hour Contact number</p>
+            <img src="#" alt="#">
+            <a href="#"><b>1.001.234.5678</b></a>
+        </section>
+    </main>
+    <footer class="footer">
+        <a class="logo">
+            <img src="#" alt="Логотип WOODART">
+        </a>
+        <p>©2007, WoodArt, All rights reserved</p>
+        <img src="#" alt="Facebook">
+        <img src="#" alt="Twitter">
+        <img src="#" alt="Google">
+        <ul>
+            <li>
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Services</h3>
+                <ul>
+                    <li>Wooden Furniture</li>
+                    <li>Decks & Porches</li>
+                    <li>Home Renovations</li>
+                    <li>Stairs & Rolls</li>
+                    <li>Windows & Shutters</li>
+                    <li>Doors and Doorsteps</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Contact Info</h3>
+                <ul>
+                    <li><img src="#" alt="#"> 121 King Street, Melbourne Victoria 3000 Australia</li>
+                    <li><img src="#" alt="#"> Phone: (123)123-456789 Help: (123)123-456789</li>
+                    <li><img src="#" alt="#"><a href="#">info@woodart.com</a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
-<script src="jquery\jquery-3.7.1.min.js"></script>
-<script src="js\script.js"></script>
 </html>
