@@ -1,13 +1,12 @@
 
 header{
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     /*width: 100vw;*/
     height: 100vh;
-    background-image: url("/photos/back1.png");
-    background-position: center;
+    background-image: url("/photos/man.jpg");
+    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
