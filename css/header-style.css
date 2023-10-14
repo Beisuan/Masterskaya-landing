@@ -3,6 +3,7 @@ header{
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
     /*width: 100vw;*/
     height: 100vh;
     background-image: url("/photos/back1.png");
@@ -15,6 +16,7 @@ nav{
     align-items: center;
     border-bottom: 1px solid transparent;
     border-color: rgb(224, 173, 43); 
+    justify-content: space-between;
 }
 .menu a:hover {
     color: rgb(224, 173, 43);
@@ -28,17 +30,17 @@ nav{
     margin-bottom: 0;
     margin-top: 0;
     border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
     border-color: rgb(224, 173, 43);
 }
 .menu li{
     display: inline-block;
     text-decoration: none;
+    margin-right: 0.2em;
 }
 .menu li a{
     display: inline-block;
     text-decoration: none;
-    padding: 30px;
+    padding: 2em;
     font-weight: bold;
     color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
@@ -52,11 +54,15 @@ nav{
 }
 .navbar{
     display: flex;
-    flex-flow: row nowrap;
+    align-items: center;
 }
 .logo{
-    padding-left: 3em;
+    padding-left: 2em;
     padding-right: 3em;
+    width:4vw;
+}
+.logo img{
+    width: 120%;
 }
 .iconsnav{
     display: flex;
@@ -64,14 +70,15 @@ nav{
 }
 .iconsnav a{
     display:inline block;
-    padding: 30px;  
-    border-right: 1px solid transparent;
+    align-items: center;
+    padding: 1em;
+    height: 100%;
+    border-left: 1px solid transparent;
     border-color: rgb(224, 173, 43);
     color: rgb(224, 173, 43);
 }
 .iconsnav a i{
     font-size: 1em;
-    text-align: center;
 }
 .iconsnav a:hover{
     color:rgb(224, 150, 43);
