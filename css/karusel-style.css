@@ -1,0 +1,67 @@
+.karusel b{
+    font-size: 1.5em;
+    font-weight: 500;
+    color:rgb(224, 173, 43);
+    padding-left: 150px;
+}
+.karusel p{
+    color:white;
+    padding-left: 150px;
+}
+.karusel h1{
+    font-size: 3.5em;
+    color: white;
+    padding-left: 150px;
+}
+.colored{
+    color:rgb(224, 173, 43);
+}
+.karusel a{
+    color: black;
+    background-color:rgb(224, 173, 43);
+    font-size:1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    text-decoration: none;
+    margin-left: 150px;
+}
+.karusel a:hover{
+    background-color: rgb(224, 150, 43);
+}
+.karusel{
+    margin-top:100px;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+button{
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+    padding: 20px 20px;
+    font-size: 16px;
+    margin-top: 8em;
+}
+button:hover {
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+  }
+.leftbtn{
+    left:0;
+    position: absolute;;
+    margin-left:40px;
+    top: 30%;
+}
+.rightbtn{
+    right: 0;
+    position: absolute;
+    margin-right: 40px;
+    top: 30%;
+}
+.buttons-karusel{
+    display:flex;
+    justify-content: space-between;
+}

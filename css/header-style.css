@@ -1,8 +1,9 @@
+
 header{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100vw;
+    /*width: 100vw;*/
     height: 100vh;
     background-image: url("/photos/back1.png");
     background-position: center;
@@ -12,7 +13,6 @@ header{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     border-bottom: 1px solid transparent;
     border-color: rgb(224, 173, 43); 
 }
@@ -22,7 +22,7 @@ nav{
 .menu{
     list-style: none;
     height: inherit;
-    width: 70vw;
+    /*width: 70vw;*/
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
@@ -55,8 +55,8 @@ nav{
     flex-flow: row nowrap;
 }
 .logo{
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 .iconsnav{
     display: flex;
@@ -72,6 +72,9 @@ nav{
 .iconsnav a i{
     font-size: 1em;
     text-align: center;
+}
+.iconsnav a:hover{
+    color:rgb(224, 150, 43);
 }
 
 
