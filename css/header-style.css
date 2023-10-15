@@ -1,12 +1,10 @@
-
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 header{
-    top: 0;
-    left: 0;
-    right: 0;
-    /*width: 100vw;*/
+    position: relative;
     height: 100vh;
     background-image: url("/photos/man.jpg");
-    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,18 +16,17 @@ nav{
     justify-content: space-between;
 }
 .menu a:hover {
-    color: rgb(224, 173, 43);
+    color: #e0ad2b;
   }
 .menu{
     list-style: none;
     height: inherit;
-    /*width: 70vw;*/
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 0;
     margin-top: 0;
     border-left: 1px solid transparent;
-    border-color: rgb(224, 173, 43);
+    border-color: #e0ad2b;
 }
 .menu li{
     display: inline-block;
@@ -42,12 +39,11 @@ nav{
     padding: 2em;
     font-weight: bold;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
 .menu li a::before{
     content:"·";
     padding-right: 5px;
-    color: rgb(224, 173, 43);
+    color: #e0ad2b;
     font-weight: 900;
     font-size: 1em;
 }
@@ -73,14 +69,14 @@ nav{
     padding: 1em;
     height: 100%;
     border-left: 1px solid transparent;
-    border-color: rgb(224, 173, 43);
-    color: rgb(224, 173, 43);
+    border-color: #e0ad2b;
+    color: #e0ad2b;
 }
 .iconsnav a i{
     font-size: 1em;
 }
 .iconsnav a:hover{
-    color:rgb(224, 150, 43);
+    color:#e0962b;
 }
 
 

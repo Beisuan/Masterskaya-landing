@@ -1,24 +1,24 @@
-.karusel b{
+.carousel b{
     font-size: 1.5em;
     font-weight: 500;
-    color:rgb(224, 173, 43);
+    color:#e0962b;
     padding-left: 150px;
 }
-.karusel p{
+.carousel p{
     color:white;
     padding-left: 150px;
 }
-.karusel h1{
+.carousel h1{
     font-size: 3.5em;
     color: white;
     padding-left: 150px;
 }
 .colored{
-    color:rgb(224, 173, 43);
+    color:#e0962b;
 }
-.karusel a{
+.carousel a{
     color: black;
-    background-color:rgb(224, 173, 43);
+    background-color:#e0962b;
     font-size:1em;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
@@ -27,13 +27,14 @@
     text-decoration: none;
     margin-left: 150px;
 }
-.karusel a:hover{
-    background-color: rgb(224, 150, 43);
+.carousel a:hover{
+    background-color: #e0962b;
 }
-.karusel{
+.carousel{
     margin-top:100px;
     text-align: left;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    display:grid;
+    grid-template-columns: 1fr 10fr 1fr ;
 }
 button{
     background-color: transparent;
@@ -44,24 +45,23 @@ button{
     margin-top: 8em;
 }
 button:hover {
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255, 0.1);
     border: 2px solid black;
     color: black;
     cursor: pointer;
   }
-.leftbtn{
+.btn-left{
     left:0;
-    position: absolute;;
     margin-left:40px;
     top: 30%;
 }
-.rightbtn{
+.btn-right{
     right: 0;
-    position: absolute;
     margin-right: 40px;
     top: 30%;
 }
-.buttons-karusel{
+.carousel-buttons{
     display:flex;
-    justify-content: space-between;
+    height: 50%;
+    align-items: center;
 }
