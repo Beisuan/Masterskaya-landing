@@ -1,8 +1,9 @@
+a { outline: none!important;}
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    position: relative;
+    position:relative;
     height: 100vh;
     background-image: url("/photos/man.jpg");
     background-repeat: no-repeat;
@@ -10,7 +11,7 @@ header{
 }
 nav{
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     border-bottom: 1px solid transparent;
     border-color: rgb(224, 173, 43); 
     justify-content: space-between;
@@ -26,17 +27,18 @@ nav{
     margin-bottom: 0;
     margin-top: 0;
     border-left: 1px solid transparent;
-    border-color: #e0ad2b;
+    border-color: #a87d11;
 }
 .menu li{
     display: inline-block;
+    height: inherit;
     text-decoration: none;
     margin-right: 0.2em;
 }
 .menu li a{
     display: inline-block;
     text-decoration: none;
-    padding: 2em;
+    padding: 1.5rem;
     font-weight: bold;
     color: white;
 }
@@ -52,28 +54,29 @@ nav{
     align-items: center;
 }
 .logo{
-    padding-left: 2em;
-    padding-right: 3em;
+    padding-left: 2rem;
+    padding-right: 3rem;
     width:4vw;
 }
 .logo img{
-    width: 120%;
+    width: 100%;
 }
 .iconsnav{
     display: flex;
+    height: inherit;
     
 }
 .iconsnav a{
     display:inline block;
-    align-items: center;
-    padding: 1em;
-    height: 100%;
-    border-left: 1px solid transparent;
-    border-color: #e0ad2b;
+    padding-top: 1.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
     color: #e0ad2b;
+    border-left: 1px solid transparent;
+    border-color: #a87d11;
 }
 .iconsnav a i{
-    font-size: 1em;
+    font-size: 1rem;
 }
 .iconsnav a:hover{
     color:#e0962b;

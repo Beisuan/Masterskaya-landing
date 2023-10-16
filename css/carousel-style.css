@@ -1,7 +1,7 @@
 .carousel b{
     font-size: 1.5em;
     font-weight: 500;
-    color:#e0962b;
+    color:#e0ad2b;
     padding-left: 150px;
 }
 .carousel p{
@@ -14,16 +14,16 @@
     padding-left: 150px;
 }
 .colored{
-    color:#e0962b;
+    color:#e0ad2b;
 }
 .carousel a{
     color: black;
-    background-color:#e0962b;
+    background-color:#e0ad2b;
     font-size:1em;
-    padding-top: 0.8em;
-    padding-bottom: 0.8em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     text-decoration: none;
     margin-left: 150px;
 }
@@ -62,6 +62,6 @@ button:hover {
 }
 .carousel-buttons{
     display:flex;
-    height: 50%;
+    height: 50vh;
     align-items: center;
 }
