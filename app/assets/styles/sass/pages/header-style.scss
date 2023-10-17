@@ -1,0 +1,84 @@
+a { outline: none!important;}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position:relative;
+    height: 100vh;
+    background-image: url(/assets/photos-scss/man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    border-bottom: 1px solid transparent;
+    border-color: rgb(224, 173, 43); 
+    justify-content: space-between;
+}
+.menu a:hover {
+    color: #e0ad2b;
+  }
+.menu{
+    list-style: none;
+    height: inherit;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-left: 1px solid transparent;
+    border-color: #a87d11;
+}
+.menu li{
+    display: inline-block;
+    height: inherit;
+    text-decoration: none;
+    margin-right: 0.2em;
+}
+.menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.menu li a::before{
+    content:"·";
+    padding-right: 5px;
+    color: #e0ad2b;
+    font-weight: 900;
+    font-size: 1em;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    padding-left: 2rem;
+    padding-right: 3rem;
+    width:4vw;
+}
+.logo img{
+    width: 100%;
+}
+.iconsnav{
+    display: flex;
+    height: inherit;
+    
+}
+.iconsnav a{
+    display:inline block;
+    padding-top: 1.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    color: #e0ad2b;
+    border-left: 1px solid transparent;
+    border-color: #a87d11;
+}
+.iconsnav a i{
+    font-size: 1rem;
+}
+.iconsnav a:hover{
+    color:#e0962b;
+}
+
+
