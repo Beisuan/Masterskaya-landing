@@ -3,52 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/carousel-style.css">
+    <link rel="stylesheet" href="css/about.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header">
         <nav class="nav">
-            <a class="logo">
-                <img src="#" alt="Логотип WOODART">
-            </a>
-            <ul class="menu">
-                <li class="menu-list"><a href="#">HOME</a></li>
-                <li class="menu-list"><a href="#">ABOUT US</a></li>
-                <li class="menu-list"><a href="#">SERVICES</a></li>
-                <li class="menu-list"><a href="#">GALLERY</a></li>
-                <li class="menu-list"><a href="#">CONTACT US</a></li>
-                <li class="menu-list"><a href="#">BLOG</a></li>
-                <li class="menu-list"><a href="#">PAGES</a></li>
-                <li class="menu-list"><a href="#"><img src="#" alt="Facebook"></a></li>
-                <li class="menu-list"><a href="#"><img src="#" alt="Twitter"></a></li>
-                <li class="menu-list"><a href="#"><img src="#" alt="Google"></a></li>
-            </ul>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="photos/wood-log.svg" alt="Логотип WOODART">
+                </div>
+                <ul class="menu">
+                    <li class="menu-list"><a href="#">HOME</a></li>
+                    <li class="menu-list"><a href="#">ABOUT US</a></li>
+                    <li class="menu-list"><a href="#">SERVICES</a></li>
+                    <li class="menu-list"><a href="#">GALLERY</a></li>
+                    <li class="menu-list"><a href="#">CONTACT US</a></li>
+                    <li class="menu-list"><a href="#">BLOG</a></li>
+                    <li class="menu-list"><a href="#">PAGES</a></li>
+                </ul>
+            </div>
+            <div class="iconsnav">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google"></i></a>
+            </div>
         </nav>
-    </header>
-    <main>
-        <section class="karusel">
-            <b>CARPENTRY WORK</b>
-            <h1>We Create Master Pieces Out Of Wood!</h1>
-            <p>Что-то на Китайском</p>
-            <a href="#">Get Your Quote</a>
-            <button type="button">Next</button>
-            <button type="button">Prev</button>
+        <section class="carousel">
+            <div class="carousel-buttons">  
+                <button type="button" class="btn-left">Prev</button>
+            </div>
+            <div class="carousel-text">
+                <b>CARPENTRY WORK</b><br><br>
+                <h1>We Create <span class="colored">Master <br> Pieces</span> Out of Wood!</h1><br><br>
+                <p>Duis oute inure dolor in reprehenderit in voluptate velit asse cilium<br> dolore eu fugiat nulla pariatur<br><br></p><br><br><br>
+                <a href="#">Get Your Quote</a>
+            </div>
+            <div class="carousel-buttons">  
+                <button type="button" class="btn-right">Next</button>
+            </div>
         </section>
+    </header>  
+    <main>
         <section class="about">
             <h2>We design and manufacture high quality and innovative WoodArt products.</h2>
             <b>Over 35 years experience in industry</b>
-            <p>Еще что-то на Китайском</p>
+            <p> Tempor voluptate eiusmod non laborum ullamco consequat. Dolore mollit laborum reprehenderit irure non.
+                Occaecat magna consequat ut ullamco aliqua laboris eiusmod commodo. Esse officia velit eu ea magna do.
+                Tempor consequat commodo officia velit nulla in occaecat do exercitation laborum eu. Ut officia exercitation
+                fugiat id in aliqua culpa sunt nisi occaecat dolor ut.
+            </p>
             <a href="#">ABOUT US</a>
         </section>
         <section class="furnitures">
-            <ul>
-                <li><h3>Wooden Furniture</h3><p>Что-то на Китайском</p><a href="#">READ MORE</a></li>
-                <li><h3>Wooden Furniture</h3><p>Что-то на Китайском</p><a href="#">READ MORE</a></li>
-                <li><h3>Wooden Furniture</h3><p>Что-то на Китайском</p><a href="#">READ MORE</a></li>
-            </ul>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Wooden Furniture</h3><p>Cillum excepteur sunt veniam id eiusmod tempor et. Do voluptate reprehenderit qui labore esse et ipsum id est.</p><a href="#">READ MORE</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Wooden Furniture</h3><p>Cillum excepteur sunt veniam id eiusmod tempor et. Do voluptate reprehenderit qui labore esse et ipsum id est.</p><a href="#">READ MORE</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Wooden Furniture</h3><p>Cillum excepteur sunt veniam id eiusmod tempor et. Do voluptate reprehenderit qui labore esse et ipsum id est.</p><a href="#">READ MORE</a>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="prichini">
+        <section class="reasons">
             <h2>Why Choose WoodArt</h2>
             <img src="#" alt="Жэнщина">
             <b>Superior Quality</b>
@@ -114,7 +142,7 @@
         <img src="#" alt="Facebook">
         <img src="#" alt="Twitter">
         <img src="#" alt="Google">
-        <ul>
+        <div class="footer-nav">
             <li>
                 <h3>Navigation</h3>
                 <ul>
@@ -145,9 +173,10 @@
                     <li><img src="#" alt="#"><a href="#">info@woodart.com</a></li>
                 </ul>
             </li>
-        </ul>
+        </div>
     </footer>
     <script src="jquery/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
-</body>
+    <script src="https://kit.fontawesome.com/e556cd0bde.js" crossorigin="anonymous"></script>
+    </body>
 </html>
