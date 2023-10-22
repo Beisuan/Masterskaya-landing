@@ -1,4 +1,8 @@
 
+.er404 h2{
+    text-align: center;
+}
+
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #d8f6d7;
@@ -55,6 +59,7 @@ nav{
     padding-right: 1rem;
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
+    margin-right: 1rem;
     text-decoration: none;
     color: white;
     background-color: #3a4f39;
@@ -68,4 +73,47 @@ nav{
 .logo{
     padding-right:1.8rem;
     padding-left:1.8rem;
+    height: 3%;
+    width: 3%;
+}
+.logo img{
+    width: 150%;
+    height: 150%;
+}
+.hamburger {
+    display:none;
+}
+
+@media (max-width: 768px) {
+    .navbar{
+        display: flex;
+    }
+    .menu menu-open{
+        right:0;
+    }
+    .menu{
+        display: block;
+        background: rgb(245, 246, 246);
+        box-shadow: #ccc;
+        box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+
+        transition: all 0.4s ease;
+    }
+    .iconsnav{
+        display:none;
+    }
+    .hamburger {
+        padding: 1rem;
+        display:block;
+    }
+
+    .call{
+        display:none;
+    }
+    .logo{
+        padding-right:0.8rem;
+        padding-left:0.8rem;
+        height: 10%;
+        width: 10%;
+    }
 }
