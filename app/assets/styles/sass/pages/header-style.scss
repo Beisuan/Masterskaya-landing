@@ -1,8 +1,3 @@
-
-.er404 h2{
-    text-align: center;
-}
-
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #d8f6d7;
@@ -17,17 +12,22 @@ nav{
     justify-content:space-evenly;
     align-items: center;
 }
-.menu li{
-    display: inline-block;
-    text-decoration: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.menu li a{
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(88, 88, 88);
-    padding: 1.5rem;
+.menu{
+    li{
+        display: inline-block;
+        text-decoration: none;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }   
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color: rgb(88, 88, 88);
+        padding: 1.5rem;
+    }
+    :hover{
+        color:#000000;
+    }
 }
 .navbar{
     display: flex;
@@ -37,23 +37,19 @@ nav{
 .iconsnav{
     display: flex;
     
+    a{
+        display:inline block;
+        padding-left: 1.3rem;
+        padding-right: 1.3rem;
+        color: #3a4f39;
+        i{
+            font-size: 1rem;
+        }
+    }
+    :hover{
+        color:#000000;
+    }
 }
-.iconsnav a{
-    display:inline block;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-    color: #3a4f39;
-}
-.iconsnav a i{
-    font-size: 1rem;
-}
-.iconsnav a:hover{
-    color:#000000;
-}
-.menu li a:hover{
-    color:#000000;
-}
-
 .call {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -75,10 +71,10 @@ nav{
     padding-left:1.8rem;
     height: 3%;
     width: 3%;
-}
-.logo img{
-    width: 150%;
-    height: 150%;
+    img{
+        width: 150%;
+        height: 150%;
+    }
 }
 .hamburger {
     display:none;
@@ -88,16 +84,15 @@ nav{
     .navbar{
         display: flex;
     }
-    .menu menu-open{
-        right:0;
-    }
     .menu{
         display: block;
         background: rgb(245, 246, 246);
         box-shadow: #ccc;
         box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
-
         transition: all 0.4s ease;
+        menu-open{
+            right:0;
+        }
     }
     .iconsnav{
         display:none;
