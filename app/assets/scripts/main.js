@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 });
-$(document).ready(function() {
+  $(document).ready(function() {
   $('.hamburger').click(function(){
       $('.hamburger').toggleClass('menu-open');
       $('.menu').toggleClass('open-menu');
@@ -12,5 +12,8 @@ window.onload = function () {
   window.setTimeout(function() {
     document.body.classList.add('loaded');
     document.body.classList.remove('loaded_hiding');
-  }, 2000);
+  }, 500);
 }
+$(document).ready(function(){
+  $("#slider").owlCarousel();
+});
