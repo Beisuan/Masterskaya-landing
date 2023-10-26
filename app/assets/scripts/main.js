@@ -1,12 +1,16 @@
 $(document).ready(function () {
   'use strict';
-  window.onload = function () {
-  document.body.classList.add('loaded_hiding');
-  window.setTimeout(function() {
-    document.body.classList.add('loaded');
-    document.body.classList.remove('loaded_hiding');
-    }, 500);
-  };
+  const loaderTimer = (time) =>
+  new Promise((resolve) => {
+    const timerId = window.setTimeout(() => {
+      resolve(timerId);
+    }, time)
+  });
+  loaderTimer(500).then((timerId) => {
+    window.clearTimeout(timerId);
+    $('body').addClass('loaded');
+    $('body').removeClass('loaded_hiding');
+  });
   $(document).ready(function(){
     $("#slider").owlCarousel();
   });
