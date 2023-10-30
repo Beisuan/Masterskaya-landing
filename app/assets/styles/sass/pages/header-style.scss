@@ -13,12 +13,13 @@ nav{
     align-items: center;
 }
 .menu{
+    
     li{
         display: inline-block;
         text-decoration: none;
         padding-left: 1rem;
         padding-right: 1rem;
-    }   
+    }  
     a{
         display: inline-block;
         text-decoration: none;
@@ -32,6 +33,7 @@ nav{
 .navbar{
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .iconsnav{
@@ -78,5 +80,44 @@ nav{
 }
 .hamburger {
     display:none;
+    i{
+        transform: scale(1.5,1.5);
+    }
 }
+.owl-carousel{
+    .slide1{
+        height:80vh;
+        background-image: url("/assets/images/man.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .slide2{
+        height:80vh;
+        background-image: url("/assets/images/doskaperec2.jpg");
+        background-size: cover;
+        background-position:top;
+        background-repeat: no-repeat;
+    }
 
+}
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .owl-prev {
+        margin-left:2rem;
+    }
+    .owl-next {
+        margin-right:2rem;
+    }
+    button {
+        width: 2rem; 
+        height:2rem;
+        span{
+            font-size: 5rem;    
+        }
+  }
+}

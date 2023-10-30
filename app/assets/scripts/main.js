@@ -11,10 +11,15 @@ $(document).ready(function () {
     $('body').addClass('loaded');
     $('body').removeClass('loaded_hiding');
   });
-  $(document).ready(function(){
-    $("#slider").owlCarousel();
-  });
-  document.querySelector('.hamburger').addEventListener('click', function() {
-  document.querySelector('.menu').classList.toggle('open');
-  });
 });
+  $(document).ready(function(){
+    const slider = $("#slider").owlCarousel({
+      items: 1,
+      nav:true,
+      loop:true
+      
+    });
+    document.querySelector('.hamburger').addEventListener('click', function() {
+      document.querySelector('.menu').classList.toggle('open');
+        });
+  });
