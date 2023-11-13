@@ -1,84 +1,124 @@
-a { outline: none!important;}
-body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-header{
-    position:relative;
-    height: 100vh;
-    background-image: url(/assets/photos-scss/man.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-nav{
-    display: flex;
-    border-bottom: 1px solid transparent;
-    border-color: rgb(224, 173, 43); 
-    justify-content: space-between;
-}
-.menu a:hover {
-    color: #e0ad2b;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d8f6d7;
+  p{
+    padding-top:5rem;
   }
-.menu{
-    list-style: none;
-    height: inherit;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-    border-left: 1px solid transparent;
-    border-color: #a87d11;
 }
-.menu li{
-    display: inline-block;
-    height: inherit;
-    text-decoration: none;
-    margin-right: 0.2em;
+header {
+  position: static;
+  background-color: white;
+  font-size: 0.8rem;
 }
-.menu li a{
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menu {
+  li {
     display: inline-block;
     text-decoration: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(88, 88, 88);
     padding: 1.5rem;
-    font-weight: bold;
-    color: white;
+  }
+  :hover {
+    color: #000000;
+  }
 }
-.menu li a::before{
-    content:"·";
-    padding-right: 5px;
-    color: #e0ad2b;
-    font-weight: 900;
-    font-size: 1em;
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-}
-.logo{
-    padding-left: 2rem;
-    padding-right: 3rem;
-    width:4vw;
-}
-.logo img{
-    width: 100%;
-}
-.iconsnav{
-    display: flex;
-    height: inherit;
-    
-}
-.iconsnav a{
-    display:inline block;
-    padding-top: 1.5rem;
+
+.iconsnav {
+  display: flex;
+
+  a {
+    display: inline block;
     padding-left: 1.3rem;
     padding-right: 1.3rem;
-    color: #e0ad2b;
-    border-left: 1px solid transparent;
-    border-color: #a87d11;
+    color: #3a4f39;
+    i {
+      font-size: 1rem;
+    }
+  }
+  :hover {
+    color: #000000;
+  }
 }
-.iconsnav a i{
-    font-size: 1rem;
+.call {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #3a4f39;
+  align-items: center;
+  border-radius: 0.2rem;
+  text-align: center;
 }
-.iconsnav a:hover{
-    color:#e0962b;
+.call:hover {
+  background-color: #000000;
 }
-
-
+.logo {
+  padding-right: 1.8rem;
+  padding-left: 1.8rem;
+  height: 3%;
+  width: 3%;
+  img {
+    width: 150%;
+    height: 150%;
+  }
+}
+.hamburger {
+  display: none;
+  i {
+    transform: scale(1.5, 1.5);
+  }
+}
+.owl-carousel {
+  .slide1 {
+    height: 80vh;
+    background-image: url('/assets/images/doskaperec2.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+  .slide2 {
+    height: 80vh;
+    background-image: url('/assets/images/doskaperec2.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+  }
+}
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .owl-prev {
+    margin-left: 2rem;
+  }
+  .owl-next {
+    margin-right: 2rem;
+  }
+  button {
+    width: 2rem;
+    height: 2rem;
+    span {
+      font-size: 5rem;
+    }
+  }
+}
