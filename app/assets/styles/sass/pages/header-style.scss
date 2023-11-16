@@ -1,124 +1,13 @@
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #d8f6d7;
-  p{
-    padding-top:5rem;
-  }
+
+a { outline: none!important;}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header {
-  position: static;
-  background-color: white;
-  font-size: 0.8rem;
-}
-nav {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.menu {
-  li {
-    display: inline-block;
-    text-decoration: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-  a {
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(88, 88, 88);
-    padding: 1.5rem;
-  }
-  :hover {
-    color: #000000;
-  }
-}
-.navbar {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
+header{
+    position:relative;
+    height: 100vh;
+    background-image: url("/assets/images/man.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.iconsnav {
-  display: flex;
-
-  a {
-    display: inline block;
-    padding-left: 1.3rem;
-    padding-right: 1.3rem;
-    color: #3a4f39;
-    i {
-      font-size: 1rem;
-    }
-  }
-  :hover {
-    color: #000000;
-  }
-}
-.call {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.7rem;
-  padding-bottom: 0.7rem;
-  margin-right: 1rem;
-  text-decoration: none;
-  color: white;
-  background-color: #3a4f39;
-  align-items: center;
-  border-radius: 0.2rem;
-  text-align: center;
-}
-.call:hover {
-  background-color: #000000;
-}
-.logo {
-  padding-right: 1.8rem;
-  padding-left: 1.8rem;
-  height: 3%;
-  width: 3%;
-  img {
-    width: 150%;
-    height: 150%;
-  }
-}
-.hamburger {
-  display: none;
-  i {
-    transform: scale(1.5, 1.5);
-  }
-}
-.owl-carousel {
-  .slide1 {
-    height: 80vh;
-    background-image: url('/assets/images/doskaperec2.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-  .slide2 {
-    height: 80vh;
-    background-image: url('/assets/images/doskaperec2.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
-}
-.owl-carousel .owl-nav {
-  position: absolute;
-  top: 40%;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  .owl-prev {
-    margin-left: 2rem;
-  }
-  .owl-next {
-    margin-right: 2rem;
-  }
-  button {
-    width: 2rem;
-    height: 2rem;
-    span {
-      font-size: 5rem;
-    }
-  }
-}
