@@ -1,10 +1,7 @@
-
-@import "sass/pages/all";
-@import "sass/pages/reset";
-@import "sass/pages/header-style";
-@import "sass/pages/carousel-style";
-@import "sass/pages/about";
-@import "sass/pages/furnitures";
-@import "sass/pages/reasons";
-@import "sass/pages/questions";
-
+@import 'sass/pages/owl.theme.default.min.scss';
+@import 'sass/pages/owl.carousel.min.scss';
+@import 'sass/pages/loader';
+@import 'sass/pages/reset';
+@import 'sass/pages/header-style';
+@import 'sass/pages/about';
+@import 'sass/pages/mobile';
