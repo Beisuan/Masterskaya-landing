@@ -1,0 +1,77 @@
+.clients {
+  background-color: #f0aa16;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  .clients-block {
+    h2 {
+      font-weight: 600;
+      font-size: 2rem;
+      padding-left: 4rem;
+      padding-top: 4rem;
+      padding-bottom: 1rem;
+      margin-left: 2rem;
+    }
+    cite {
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .clients-buttons {
+      margin-left: 6rem;
+      button {
+        padding: 1rem;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        margin-left: 0.5rem;
+        background-color: transparent;
+      }
+      button:hover {
+        background-color: #fcc663;
+      }
+      .partners-btn-right {
+        padding: 1.3rem;
+        border-color: black;
+        border: 1px solid black;
+        background-image: url('/assets/images/chevron-right-solid.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40%;
+      }
+      .partners-btn-left {
+        padding: 1.3rem;
+        border-color: black;
+        border: 1px solid black;
+        background-image: url('/assets/images/chevron-left-solid.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 40%;
+      }
+    }
+    img {
+      border-radius: 50%;
+      width: 8rem;
+      height: 8rem;
+      padding: 1rem;
+      margin-left: 6rem;
+      object-fit: cover;
+    }
+    p {
+      margin-left: 6rem;
+      line-height: 1.5rem;
+    }
+  }
+  .partners-part {
+    h2{
+      font-size: 2rem;
+      text-align: center;
+    }
+    text-align: center;
+    .partners-blocks {
+      display: grid;
+      grid-template-rows: repeat(2, 2fr);
+      grid-template-columns: repeat(2, 2fr);
+      img {
+        width: 10rem;
+      }
+    }
+  }
+}

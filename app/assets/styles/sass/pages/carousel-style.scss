@@ -1,67 +1,69 @@
-.carousel b{
+.carousel {
+  margin-top: 100px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+
+  b {
     font-size: 1.5em;
     font-weight: 500;
-    color:#e0ad2b;
+    color: #e0ad2b;
     padding-left: 150px;
-}
-.carousel p{
-    color:white;
+  }
+  p {
+    color: white;
     padding-left: 150px;
-}
-.carousel h1{
+  }
+  h1 {
     font-size: 3.5em;
     color: white;
     padding-left: 150px;
-}
-.colored{
-    color:#e0ad2b;
-}
-.carousel a{
+  }
+  .colored {
+    color: #e0ad2b;
+  }
+  a {
     color: black;
-    background-color:#e0ad2b;
-    font-size:1em;
+    background-color: #e0ad2b;
+    font-size: 1em;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     text-decoration: none;
     margin-left: 150px;
-}
-.carousel a:hover{
+  }
+  a:hover {
     background-color: #e0962b;
-}
-.carousel{
-    margin-top:100px;
-    text-align: left;
-    display:grid;
-    grid-template-columns: 1fr 10fr 1fr ;
-}
-button{
+  }
+
+  button {
     background-color: transparent;
     border: 2px solid white;
-    color:white;
+    color: white;
     padding: 20px 20px;
     font-size: 16px;
     margin-top: 8em;
-}
-button:hover {
+  }
+  button:hover {
     background-color: rgb(255, 255, 255, 0.1);
-    border: 2px solid black;
-    color: black;
+    border: 2px solid #e0ad2b;
+    color: #e0ad2b;
     cursor: pointer;
   }
-.btn-left{
-    left:0;
-    margin-left:40px;
+  .btn-left {
+    left: 0;
+    margin-left: 40px;
     top: 30%;
-}
-.btn-right{
+  }
+  .btn-right {
     right: 0;
     margin-right: 40px;
     top: 30%;
-}
-.carousel-buttons{
-    display:flex;
+  }
+  .carousel-buttons {
+    display: flex;
     height: 50vh;
     align-items: center;
+  }
 }

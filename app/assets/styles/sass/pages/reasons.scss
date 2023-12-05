@@ -34,18 +34,19 @@
   .WhyTextBlock {
     margin-top: 10rem;
     margin-left: -8rem;
-    display: flex;
+    /*display: flex;*/
     align-items: left;
-    flex-direction: column;
+    /*flex-direction: column;*/
     .buttons-reasons {
-      margin-top: -5rem;
+      margin-top: 4rem;
+      background-color: transparent;
       .btn-reasons-right {
         padding: 1.5rem;
         border-color: black;
         border: 1px solid black;
         background-image: url('/assets/images/chevron-right-solid.svg');
         background-repeat: no-repeat;
-        background-position:  center;
+        background-position: center;
         background-size: 40%;
       }
       .btn-reasons-left {
@@ -54,7 +55,7 @@
         border: 1px solid black;
         background-image: url('/assets/images/chevron-left-solid.svg');
         background-repeat: no-repeat;
-        background-position:  center;
+        background-position: center;
         background-size: 40%;
       }
     }
