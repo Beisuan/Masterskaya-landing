@@ -4,10 +4,11 @@
   background-image: url("/assets/images/man2.jpg");
   background-position: center;
   background-size: cover;
+  padding-left: 5rem;
+  padding-right: 5rem;
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 2rem; 
     margin-top: 10rem;
   }
   

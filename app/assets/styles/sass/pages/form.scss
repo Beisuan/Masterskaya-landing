@@ -1,0 +1,70 @@
+.quote {
+  padding-left: 5rem;
+  align-items: center;
+  background-image: url("/assets/Images/manform.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  h2 {
+    font-size: 3rem;
+    padding: 2rem;
+    margin-top: 4rem;
+  }
+  p {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+  form {
+    input {
+      padding: 1rem;
+      width: 20rem;
+      margin: 1rem;
+    }
+    input:focus{
+        border-color:#e0ad2b;
+    }
+    select {
+      width: 22.2rem;
+      padding: 1rem;
+      margin: 1rem;
+    }
+    select:focus{
+        border-color:#e0ad2b;
+    }
+    textarea {
+      width: 44.5rem;
+      padding: 1rem;
+      margin: 1rem;
+      
+      min-height: 10rem;
+      max-height: 15rem;
+    }
+    textarea:focus{
+        border-color:#e0ad2b;
+    }
+    button{
+        color: black;
+        background-color: #e0ad2b;
+        font-size: 1rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        text-decoration: none;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        border-color: transparent;
+    }
+    button:hover {
+        background-color: #e0962b;
+      }
+    input::placeholder{
+        color:rgba(128, 128, 128, 0.603);
+        
+    }
+    textarea::placeholder{
+        color:rgba(128, 128, 128, 0.603);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+  }
+}
